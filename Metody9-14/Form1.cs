@@ -48,5 +48,10 @@ namespace Metody9_14
             int soucetCifer, soucetSud, soucetLich;
             if (ObsahujeCislici(vstup, out soucetSud, out soucetLich, out soucetCifer)) MessageBox.Show("Ano, řetězec obsahuje cifru, součet sudých je " + soucetSud + " a součet lichých je " + soucetLich + " a ciferný součet je " + soucetCifer);
         }
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
